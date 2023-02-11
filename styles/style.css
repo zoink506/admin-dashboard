@@ -1,3 +1,23 @@
+:root {
+  --bg-color: #e2e8f0; /* Slate background */
+  --light-blue: #0ea5e9; /* Used for: sidebar, buttons */
+  --main-white: #fff; /* Used for: header, cards, announcements/trending, sidebar text */
+}
+
 body {
   font-family: 'Roboto', sans-serif;
+  height: 100%;
+  background-color: var(--bg-color)
+}
+
+.grid-container {
+
+}
+
+.left-sidebar {
+  background-color: var(--light-blue);
+}
+
+.header, .below-header, .card {
+  background-color: var(--main-white);
 }
