@@ -2,6 +2,7 @@
   --bg-color: #e2e8f0; /* Slate background */
   --light-blue: #0ea5e9; /* Used for: sidebar, buttons */
   --main-white: #fff; /* Used for: header, cards, announcements/trending, sidebar text */
+  --card-accent: #f59e0b;
 }
 
 body {
